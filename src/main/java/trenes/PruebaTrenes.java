@@ -26,6 +26,12 @@ public class PruebaTrenes {
         tren2.aniadirAlVagon(10, 2);
         companiaA.aniadir(tren2);
         
+        Tren tren3 = new Tren(7777, 4);
+        tren3.aniadirAlVagon(25, 0);
+        tren3.aniadirAlVagon(6, 1);
+        tren3.aniadirAlVagon(10, 2);
+        companiaA.aniadir(tren3);
+        
         System.out.println(companiaA.toString());
         
     }
